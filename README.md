@@ -22,6 +22,7 @@ Yard sale is a project for frontend developer curse at platzi, appying al knoled
 
 <h3 align="center">Assets</h3>
 
+* [Assets](https://drive.google.com/drive/folders/1EqPBh8LR0TJIi3zJCwPxl8W9h8Mc82GS?usp=sharing)
 
 ---
 
