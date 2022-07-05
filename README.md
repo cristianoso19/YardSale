@@ -17,12 +17,27 @@ Yard sale is a project for frontend developer curse at platzi, appying al knoled
 
 <h3 align="center">Design System</h3>
 
+We use a design system for rules about design such as colors, color priority, typography, spacing and more. 
+
+We use pixel size from figma.
+
+<p align="center"> 
+  <img src="https://polaris.shopify.com/images-from-old-styleguide/design/design-intro@2x.png">
+</p>
+
+* [Design system from shopify] (https://polaris.shopify.com/foundations/design/design)
 
 ---
 
 <h3 align="center">Assets</h3>
 
-* [Assets](https://drive.google.com/drive/folders/1EqPBh8LR0TJIi3zJCwPxl8W9h8Mc82GS?usp=sharing)
+* [Fonts]: Quicksand font from google fonts.
+  ```html
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  ```
+* [Icons and Logos](https://drive.google.com/file/d/1cLYXJjJ82TyWWEmhPvYnGbSmyA3PPljz/view)
 
 ---
 
