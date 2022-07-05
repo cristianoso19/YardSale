@@ -25,13 +25,14 @@ We use pixel size from figma.
   <img src="https://polaris.shopify.com/images-from-old-styleguide/design/design-intro@2x.png">
 </p>
 
-* [Design system from shopify] (https://polaris.shopify.com/foundations/design/design)
+
+* [Design system from shopify](https://polaris.shopify.com/foundations/design/design)
 
 ---
 
 <h3 align="center">Assets</h3>
 
-* [Fonts]: Quicksand font from google fonts.
+* [Fonts:](https://fonts.google.com/specimen/Quicksand) Quicksand font from google.
   ```html
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
