@@ -34,7 +34,7 @@ body{
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
-  justify-items: center;
+  /*justify-items: center;*/
 }
 .logo{
   width: 149px;
@@ -100,6 +100,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-bottom: 38px;
+  justify-self: center;
 }
 .email-image img{
   width: 90px;
@@ -123,7 +124,7 @@ body{
   font-size: var(--font-sm);
   text-align: center;
   text-decoration: none;
-  margin-bottom: 154px;
+  margin-bottom: 60px;
 }
 .input-email{
   margin-bottom: 24px;
@@ -146,5 +147,9 @@ body{
   /*Show logo in small screens*/
   .logo{ 
     display: block;
+  }
+  /*Show Sign up button near from login button in login page*/
+  .form a{
+    margin-bottom: 154px;
   }
 }
