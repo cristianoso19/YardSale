@@ -44,8 +44,10 @@ body{
 }
 .title{
   font-size: var(--font-lg);
-  margin-bottom: 9px;
+}
+.title-center{
   text-align: center;
+  margin-bottom: 9px;
 }
 .subtitle{
   color: var(--very-light-pink);
@@ -141,6 +143,18 @@ body{
   font-weight: bold;
 }
 /*
+ *Create acount page
+ */
+.input-name, 
+.input-email,
+.input-password{
+  margin-bottom: 24px;
+}
+.title-left{
+  text-align: start;
+  margin-bottom: 47px;
+}
+/*
  *Responsive Section
  */
 @media (max-width: 640px){
@@ -152,4 +166,5 @@ body{
   .form a{
     margin-bottom: 154px;
   }
+  /*TODO: Sticky button in small screans for create_account page*/
 }
