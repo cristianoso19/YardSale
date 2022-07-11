@@ -156,7 +156,6 @@ body{
 }
 .form .confirm-button{
     margin-top: 11px;
-    margin-bottom: 15px;
   }
 /*
  *Responsive Section
@@ -167,16 +166,12 @@ body{
     display: block;
   }
   /*Show Sign up button near from login button in login page*/
-  .form a{
-    margin-bottom: 154px;
-  }
   /*Sticky button in small screans for create_account page*/
-  .form .confirm-button{
+  .fixed-bottom{
     position: fixed;
     bottom: 0;
     width: 300px;
     margin-bottom: 15px;
-    /*margin-top: 248px;*/
-    /*margin-bottom: 15px;*/
   }
+  
 }
