@@ -154,6 +154,10 @@ body{
   text-align: start;
   margin-bottom: 47px;
 }
+.form .confirm-button{
+    margin-top: 11px;
+    margin-bottom: 15px;
+  }
 /*
  *Responsive Section
  */
@@ -166,5 +170,13 @@ body{
   .form a{
     margin-bottom: 154px;
   }
-  /*TODO: Sticky button in small screans for create_account page*/
+  /*Sticky button in small screans for create_account page*/
+  .form .confirm-button{
+    position: fixed;
+    bottom: 0;
+    width: 300px;
+    margin-bottom: 15px;
+    /*margin-top: 248px;*/
+    /*margin-bottom: 15px;*/
+  }
 }
