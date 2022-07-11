@@ -143,7 +143,7 @@ body{
   font-weight: bold;
 }
 /*
- *Create acount page
+ *Create account page
  */
 .input-name, 
 .input-email,
@@ -157,6 +157,14 @@ body{
 .form .confirm-button{
     margin-top: 11px;
   }
+/*
+ *My account page
+ */
+.value{
+  color: var(--very-light-pink);
+  font-size: var(--font-md);
+  margin: 10px 0 42px;
+}
 /*
  *Responsive Section
  */
@@ -172,6 +180,11 @@ body{
     bottom: 0;
     width: 300px;
     margin-bottom: 15px;
+  }
+  .value{
+    color: var(--very-light-pink);
+    font-size: var(--font-md);
+    margin: 14px 0 38px;
   }
   
 }
