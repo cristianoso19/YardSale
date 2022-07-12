@@ -1,26 +1,29 @@
-:root{
-    --white: #FFFFFF;
-    --black: #000000;
-    --dark: #232830;
-    --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
-    --font-sm: 1.4rem;
-    --font-md: 1.6rem;
-    --font-lg: 1.8rem;
-}
-*{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-}
-html{ 
-   font-size: 62.5%;
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD9B2;
+  --font-sm: 1.4rem;
+  --font-md: 1.6rem;
+  --font-lg: 1.8rem;
 }
 
-body{
-    font-family: 'Quicksand', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /*
  * New Password Section
  */
@@ -30,42 +33,50 @@ body{
   display: grid;
   place-items: center;
 }
-.form-container{
+
+.form-container {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
   /*justify-items: center;*/
 }
-.logo{
+
+.logo {
   width: 149px;
   margin-bottom: 37px;
   justify-self: center;
   display: none;
 }
-.title{
+
+.title {
   font-size: var(--font-lg);
 }
-.title-center{
+
+.title-center {
   text-align: center;
   margin-bottom: 9px;
 }
-.subtitle{
+
+.subtitle {
   color: var(--very-light-pink);
   font-size: var(--font-md);
   font-weight: 300;
   margin-bottom: 32px;
   text-align: center;
 }
-.form{
+
+.form {
   display: flex;
   flex-direction: column;
 }
-.label{
+
+.label {
   font-size: var(--font-sm);
   font-weight: bold;
   margin-bottom: 4px;
 }
-.input{
+
+.input {
   background-color: var(--text-input-field);
   border: none;
   border-radius: 8px;
@@ -74,7 +85,8 @@ body{
   padding: 6px;
   margin-bottom: 24px;
 }
-.primary-button{
+
+.primary-button {
   background-color: var(--hospital-green);
   border-radius: 8px;
   border: none;
@@ -85,7 +97,8 @@ body{
   font-size: var(--font-md);
   font-weight: bold;
 }
-.login-button{
+
+.login-button {
   margin-top: 14px;
   margin-bottom: 30px;
 }
@@ -93,7 +106,7 @@ body{
 /*
  *Password_recovery 2 section
  */
-.email-image{
+.email-image {
   width: 153px;
   height: 153px;
   border-radius: 50%;
@@ -104,16 +117,20 @@ body{
   margin-bottom: 38px;
   justify-self: center;
 }
-.email-image img{
+
+.email-image img {
   width: 90px;
 }
-.resend{
+
+.resend {
   font-size: var(--font-sm);
 }
-.resend span{
+
+.resend span {
   color: var(--very-light-pink);
 }
-.resend a{
+
+.resend a {
   color: var(--hospital-green);
   text-decoration: none;
 }
@@ -128,10 +145,12 @@ body{
   text-decoration: none;
   margin-bottom: 60px;
 }
-.input-email{
+
+.input-email {
   margin-bottom: 24px;
 }
-.secondary-button{
+
+.secondary-button {
   background-color: var(--white);
   border-radius: 8px;
   border: 1px solid var(--hospital-green);
@@ -142,49 +161,56 @@ body{
   font-size: var(--font-md);
   font-weight: bold;
 }
+
 /*
  *Create account page
  */
-.input-name, 
+.input-name,
 .input-email,
-.input-password{
+.input-password {
   margin-bottom: 24px;
 }
-.title-left{
+
+.title-left {
   text-align: start;
   margin-bottom: 47px;
 }
-.form .confirm-button{
-    margin-top: 11px;
-  }
 /*
  *My account page
  */
-.value{
+.value {
   color: var(--very-light-pink);
   font-size: var(--font-md);
   margin: 10px 0 42px;
 }
+
+.fksd {
+  margin-bottom: hola;
+}
+
 /*
  *Responsive Section
  */
-@media (max-width: 640px){
+@media (max-width: 640px) {
+
   /*Show logo in small screens*/
-  .logo{ 
+  .logo {
     display: block;
   }
+
   /*Show Sign up button near from login button in login page*/
   /*Sticky button in small screans for create_account page*/
-  .fixed-bottom{
+  .fixed-bottom {
     position: fixed;
     bottom: 0;
     width: 300px;
     margin-bottom: 15px;
   }
-  .value{
+
+  .value {
     color: var(--very-light-pink);
     font-size: var(--font-md);
     margin: 14px 0 38px;
   }
-  
+
 }
