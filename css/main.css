@@ -278,8 +278,13 @@ body {
  *Mobile menu
  */
 .mobile-menu {
+  display: none;
   padding: 24px;
   font-size: var(--font-md);
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .mobile-menu ul {
