@@ -235,6 +235,7 @@ body {
  *Desktop Menu
  */
 .desktop-menu {
+  display: none;
   width: 153px;
   height: auto;
   border: 1px solid var(--very-light-pink);
@@ -271,6 +272,45 @@ body {
   font-size: var(--font-sm);
   text-decoration: none;
   margin-bottom: 20px;
+}
+
+/*
+ *Mobile menu
+ */
+.mobile-menu {
+  padding: 24px;
+  font-size: var(--font-md);
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 24px;
+}
+
+.mobile-menu ul:nth-child(1) {
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li {
+  margin-top: 24px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  /*margin-bottom: 24px;*/
+}
+
+.mobile-menu .email {
+  font-size: var(--font-sm);
+  font-weight: 300;
+}
+
+.mobile-menu .sign-out {
+  color: var(--hospital-green);
+  font-size: var(--font-sm);
 }
 
 /*
