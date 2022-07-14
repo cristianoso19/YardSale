@@ -355,7 +355,6 @@ body {
 .order p:nth-child(1) {
   display: flex;
   flex-direction: column;
-  font-size: var;
 }
 
 .order p:nth-child(2) {
@@ -401,6 +400,57 @@ body {
 }
 
 /*
+ *My orders
+ */
+.my-orders-container {
+  display: grid;
+  justify-content: center;
+}
+
+.my-orders-container .title {
+  margin-bottom: 20px;
+}
+
+.my-orders-content {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  max-width: 405px
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 42px;
+  gap: 28px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.orders p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.orders p:nth-child(2) {
+  text-align: end;
+  font-size: var(--font-md);
+  font-weight: bold;
+}
+
+.orders p span:nth-child(1) {
+  font-size: var(--font-md);
+  font-weight: bold;
+}
+
+.orders p span:nth-child(2) {
+  margin-top: 6px;
+  font-size: var(--font-sm);
+  color: var(--very-light-pink);
+}
+
+
+/*
  *Responsive Section
  */
 @media (max-width: 640px) {
@@ -439,4 +489,6 @@ body {
     width: 136px;
     height: 136px;
   }
+
+  /*My orders*/
 }
