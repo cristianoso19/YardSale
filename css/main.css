@@ -449,6 +449,44 @@ body {
   color: var(--very-light-pink);
 }
 
+/*
+ *navbar
+ */
+.navbar {
+  display: flex;
+}
+
+.menu {
+  display: none;
+}
+
+.logo-navbar {
+  width: 144px;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+  list-style: none;
+  margin-top: 24px;
+  display: flex;
+  align-items: center
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-left ul li a {
+  text-decoration: none;
+  color: var(--very-light-pink);
+  border: 1px solid var(--withe);
+}
+
+.navbar-left ul li a:hover {
+  text-decoration: none;
+  color: var(--hospital-green);
+  border: 1px solid var(--hospital-green);
+}
 
 /*
  *Responsive Section
