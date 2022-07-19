@@ -454,6 +454,10 @@ body {
  */
 .navbar {
   display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--very-light-pink);
+  margin-bottom: 30px;
 }
 
 .menu {
@@ -467,25 +471,57 @@ body {
 .navbar-left ul,
 .navbar-right ul {
   list-style: none;
-  margin-top: 24px;
   display: flex;
   align-items: center;
+  height: 60px;
 }
 
 .navbar-left {
   display: flex;
+  font-size: var(--font-md);
+}
+
+.navbar-left ul {
+  margin-left: 12px;
 }
 
 .navbar-left ul li a {
   text-decoration: none;
   color: var(--very-light-pink);
   border: 1px solid var(--withe);
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .navbar-left ul li a:hover {
   text-decoration: none;
   color: var(--hospital-green);
   border: 1px solid var(--hospital-green);
+}
+
+.navbar-email {
+  color: var(--very-light-pink);
+  font-size: var(--font-sm);
+  margin-right: 12px;
+}
+
+.navbar-shopping-cart {
+  position: relative;
+}
+
+.navbar-shopping-cart div {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-color: var(--hospital-green);
+  top: -6px;
+  right: -3px;
+  border-radius: 50%;
+  font-size: var(--font-sm);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
@@ -528,4 +564,14 @@ body {
   }
 
   /*My orders*/
+  /*Navbar*/
+  .menu {
+    display: block;
+  }
+  .navbar-left ul {
+    display: none;
+  }
+  .navbar-email {
+    display: none;
+  }
 }
