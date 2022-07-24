@@ -528,6 +528,7 @@ body {
  *Product detail
  */
 .product-detail {
+  display: none;
   background-color: var(--white);
   position: absolute;
   width: 360px;
@@ -592,6 +593,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/*
+ *Che cart
+ */
 
 /*
  *Responsive Section
